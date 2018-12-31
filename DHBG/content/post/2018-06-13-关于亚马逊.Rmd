@@ -1,0 +1,72 @@
+---
+title: 关于亚马逊
+author: 德宏
+date: '2018-06-13'
+slug: 关于亚马逊
+categories:
+  - Rmarkdown
+tags:
+  - R Markdown
+  - R
+  - 作业
+---
+
+ &emsp;&emsp;作为美国最大的互联网零售企业，亚马逊占全美零售支出的5%，并且其已经公开上市近二十年。最近其公司市值大幅上涨，而且市场对其未来的预期也非常看好。华尔街银行像摩根斯坦利预计亚马逊的销售收入到2025年将会以每年平均16%的速度增加，这是同类企业无法做到的增长。如果亚马逊能够实现其宏伟远大目标，那么其将成为“现代商业史上巨型企业最具野心的扩张。”
+ 
+ <!--more-->
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+year=2009:2016
+data_1<-data.frame(year,amount=c(244,548,676,994,1171,1112,660,310))
+
+data_2<-data.frame(year,amount=c(7,9,24,33,51,39,52,80))
+library(ggplot2)
+
+
+p=ggplot(data_1, aes(year,amount,fill =amount))
+p+geom_bar(stat="identity")+geom_text(aes(label=amount),hjust=0.4,vjust=-0.3)+ggtitle("亚马逊总体专利申请情况")+geom_abline(intercept = 0, slope = 0,size=2,colour='white')+xlab("年份") + ylab("专利数量")+theme_bw()
+
+```
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+year=2009:2016
+
+data_2<-data.frame(year,amount=c(7,9,24,33,51,39,52,80))
+library(ggplot2)
+
+
+p=ggplot(data_2, aes(year,amount,fill =amount))
+p+geom_bar(stat="identity")+geom_text(aes(label=amount),hjust=0.4,vjust=-0.3)+ggtitle("亚马逊物流专利申请情况")+geom_abline(intercept = 0, slope = 0,size=2,colour='white')+xlab("年份") + ylab("专利数量")+theme_bw()
+```
+
+
+
+
+
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+library(jiebaR)
+library(wordcloud2)
+data<-scan("C:/Users/nsus/Desktop/AWS", sep =  '\n',what='',encoding = 'UTF-8') #载入包，读取文本文件
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+seg <- qseg[data] #使用qseg类型分词，并把结果保存到对象seg中
+seg <- seg[nchar(seg)>1] #去除字符长度小于2的词语
+seg <- table(seg) #统计词频
+
+seg <- seg[!grepl('[0-9]+',names(seg))] #去除数字
+length(seg) #查看处理完后剩余的词数
+seg <- sort(seg, decreasing = TRUE)[1:2000] #降序排序，并提取出现次数最多的前1000个词语
+
+```
+* 做词云
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+wordcloud2(seg, size = 1/10) 
+
+```
+* 字符用“”，数值不必 
+* 产生的html,在下一次再次sevrve site 时必须删除
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数学 on 光阴的故事</title>
+    <link>/tags/%E6%95%B0%E5%AD%A6/</link>
+    <description>Recent content in 数学 on 光阴的故事</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>德宏</copyright>
+    <lastBuildDate>Wed, 31 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>千寻的数学规划</title>
+      <link>/post/%E5%8D%83%E5%AF%BB%E7%9A%84%E6%95%B0%E5%AD%A6%E8%A7%84%E5%88%92/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/%E5%8D%83%E5%AF%BB%E7%9A%84%E6%95%B0%E5%AD%A6%E8%A7%84%E5%88%92/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

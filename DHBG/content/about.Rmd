@@ -1,0 +1,99 @@
+---
+title: 关于
+output: html_document
+---
+
+
+***
+<ul>
+
+<li>Lofter: <a href="http://qingyunyueradiclinfengxue.lofter.com/">让兴趣 更有趣</a></li>
+<li>阅读.电影 <a href="https://www.douban.com/people/wdh66/">我的豆瓣</a></li>
+</ul>
+
+<center>
+
+***
+
+***
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+org <- data.frame(
+  Manager = c(NA,"点我","点我", "关于本站","关于本站","关于本站","关于本站","关于我","关于我","喜欢", "喜欢", "喜欢", "兴趣", "兴趣" ),
+Employee = c(
+    "点我","关于本站","关于我","Powered by Hugo | Theme - Jane，http://www.xianmin.org/ ","Rstudio进行内容编译","搭载Netlify","路过图床+来必力+……实现图片存储与评论及其他功能。", "喜欢", "兴趣", "骑行", "健身", "篮球", "R", "金融经济"
+  ),
+  Title = c("请继续","过程曲折，趣味无穷，换了好多次主题，也许自己做的才是最好的，选了这款最简洁的，慢慢学习、记录吧！","这里折叠着一点点关于我的信息，量虽少，却真实；若有缘，做朋友，哈哈！","1","1","1","1", "我平时花时间最多的，喜欢的不止这些，能够丰富自己的我都喜欢，哈哈", "说不清，道不明，还在认识之中，但愿未来可以拥有最好的状态，那就是将工作与兴趣结合，乐此不疲，( •̀ ω •́ )", "在骑行的路上，我还是一只菜鸟，曾骑过三百多公里去了一趟蓬莱，当然要感谢志同道合的朋友，迈开第一步真的不易。", "不得不强调一下，欠的债迟早是要还的，初三之前我的生活是“静止”的，从被动到主动，期间经历了很多，那种痛苦伴随着我的成长；我认为健身是一种很不错的生活状态，所以我喜欢", "我虽然不是很擅长、不是很迷恋打球，但是篮球真的是魅力无限，喜欢那种酣畅淋漓的感觉！", "我的” Glory of Kings “，不是很擅长，够我瞎折腾了，喜欢一键RUN，就出结果的感觉，这点我喜欢", "认准了就先拼命的上吧！"
+  )
+)
+org$Color <- org$Title
+levels(org$Color) <- colorspace::rainbow_hcl(12)
+library(collapsibleTree)
+org$tooltip <- paste0(
+  org$Employee,
+  "<br>Title: ",
+  org$Title,
+  "<br><img src='https://s1.ax1x.com/2018/06/06/CHE6KK.png'>"
+)
+collapsibleTreeNetwork(org,attribute = "Title",fill = "Color",nodeSize ="leafCount",tooltipHtml = "tooltip",collapsed = TRUE,width = 330, height = 300)
+
+```
+
+<center/>
+
+
+
+***
+
+***
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=250 height=300 src="//music.163.com/outchain/player?type=0&id=944068355&auto=0&height=220"></iframe>
+
+***
+<center>
+<img text-align:center src="https://s1.ax1x.com/2018/06/04/CT5LdA.jpg">
+
+<center/>
+
+***
+<center>
+
+![](https://s1.ax1x.com/2018/07/02/PAw158.png)
+
+<center/>
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+library(leaflet)
+library(leaflet.extras)
+library(leafletCN)
+content <- paste(sep = "<br/>",
+  "<b><a href='http://dehong.rbind.io/post/2018-01-29-%E9%AA%91%E5%BE%81%E7%83%9F%E5%A8%81%E8%93%AC/'>上一站:蓬莱</a></b>",
+  "<b><a href='https://dehong.rbind.io/post/%E9%BE%99%E6%BD%AD%E8%99%8E%E7%A9%B4-%E6%B9%96%E7%95%94%E9%B9%85%E5%BD%B1/'>荣成Ok!</a></b>"
+)
+#geo = data.frame(lon = c(116.395645,122.093958 ,121.309555,117.205916,117.024967),
+#                 lat = c(39.929986,37.528787,37.536562,34.222888,36.682785),
+#                city = c("北京", "威海", "烟台", "中国矿业大学（徐州）",  "济南" ))
+#leaflet(data=geo,width = 345, height = 255,options = leafletOptions(minZoom = 0, maxZoom = 18)) %>% amap() %>%
+#  addMiniMap(toggleDisplay = TRUE) %>% 
+#  addAwesomeMarkers()%>%
+ # addPopups(122.406926,37.128686, content,
+ #   options = popupOptions(closeButton = FALSE)
+#  )%>%setView(122.093958, 37.528787,6)%>% fitBounds(-72, 40, -70, 43)
+
+cycleLeafIcon <- makeIcon(
+  iconUrl = "https://s1.ax1x.com/2018/06/04/CTfTMQ.png",
+  iconWidth = 30, iconHeight = 30,
+  iconAnchorX = 30, iconAnchorY = 30
+  )
+geo_1=data.frame(lon = c(122.406926,120.862694,122.093958),lat = c(37.128686,37.66116,37.528787),city = c("荣成","蓬莱","威海"))
+
+leaflet(data = geo_1,width = 330, height = 300,options = leafletOptions(minZoom = 0, maxZoom = 8)) %>% addTiles() %>%
+  addMarkers(icon = cycleLeafIcon)%>%addMiniMap(toggleDisplay = TRUE) %>% addPopups(122.406926,37.128686, content,
+    options = popupOptions(closeButton = FALSE)
+  )%>%setView(122.093958, 37.528787,6)%>% fitBounds(-72, 40, -70, 43)
+
+```
+
+
+
+***

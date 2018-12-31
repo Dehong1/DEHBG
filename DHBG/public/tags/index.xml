@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 光阴的故事</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on 光阴的故事</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>德宏</copyright>
+    <lastBuildDate>Wed, 16 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Html</title>
+      <link>/tags/html/</link>
+      <pubDate>Wed, 16 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plot</title>
+      <link>/tags/plot/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/plot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R Markdown</title>
+      <link>/tags/r-markdown/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regression</title>
+      <link>/tags/regression/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/regression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>作业</title>
+      <link>/tags/%E4%BD%9C%E4%B8%9A/</link>
+      <pubDate>Wed, 13 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E4%BD%9C%E4%B8%9A/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>图片</title>
+      <link>/tags/%E5%9B%BE%E7%89%87/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E5%9B%BE%E7%89%87/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>家教</title>
+      <link>/tags/%E5%AE%B6%E6%95%99/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E5%AE%B6%E6%95%99/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>摘文</title>
+      <link>/tags/%E6%91%98%E6%96%87/</link>
+      <pubDate>Mon, 02 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E6%91%98%E6%96%87/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>数学</title>
+      <link>/tags/%E6%95%B0%E5%AD%A6/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E6%95%B0%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>朋友</title>
+      <link>/tags/%E6%9C%8B%E5%8F%8B/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E6%9C%8B%E5%8F%8B/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>电影</title>
+      <link>/tags/%E7%94%B5%E5%BD%B1/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E7%94%B5%E5%BD%B1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>相册</title>
+      <link>/tags/%E7%9B%B8%E5%86%8C/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E7%9B%B8%E5%86%8C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>读书笔记</title>
+      <link>/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>骑行</title>
+      <link>/tags/%E9%AA%91%E8%A1%8C/</link>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%E9%AA%91%E8%A1%8C/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+---
+title: REmap
+author: 德宏
+date: '2018-06-11'
+slug: remap
+categories:
+  - R
+tags:
+  - R
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+library(REmap)
+options(remap.ak="MY07CLhm3wKi4N2tQ6WP4kzz21BBZagI")#百度API
+origin = c('哈尔滨工业大学(威海校区)','哈尔滨工业大学(威海校区)','哈尔滨工业大学','哈尔滨工业大学(深圳校区)','兰州财经大学（和平校区）')
+destination = c('哈尔滨工业大学(深圳校区)','哈尔滨工业大学(深圳校区)','哈尔滨工业大学(深圳校区)','哈尔滨工业大学(深圳校区)','哈尔滨工业大学(深圳校区)')
+map_data<- data.frame(origin,destination) #合成数据框格式的作图数
+map_out<-remapB(zoom=10, #参数5绘制省级国家地图
+                color="dark",
+                title="南下",
+                subtitle="想带着你南下 感受四季的变化 看着窗前的花 静静发芽 长成了牵挂 远离世俗的嘈杂 走过春秋又一夏 微笑都变成最美的情话",
+                markLineData=map_data,
+                markPointData=destination,
+                markLineTheme=markLineControl(),
+                markPointTheme=markPointControl())
+plot(map_out)
+
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+file.show(system.file("NEWS", package = "rgl"))
+example(surface3d)
+example(plot3d)
+example(surface3d)
+example(plot3d)
+```
+

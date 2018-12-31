@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>随笔 on 光阴的故事</title>
+    <link>/categories/%E9%9A%8F%E7%AC%94/</link>
+    <description>Recent content in 随笔 on 光阴的故事</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <copyright>德宏</copyright>
+    <lastBuildDate>Wed, 30 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>“不见黄河不死心 ”</title>
+      <link>/post/%E4%B8%8D%E8%A7%81%E9%BB%84%E6%B2%B3%E4%B8%8D%E6%AD%BB%E5%BF%83/</link>
+      <pubDate>Wed, 30 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/%E4%B8%8D%E8%A7%81%E9%BB%84%E6%B2%B3%E4%B8%8D%E6%AD%BB%E5%BF%83/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>观影红海</title>
+      <link>/post/%E8%A7%82%E5%BD%B1%E7%BA%A2%E6%B5%B7/</link>
+      <pubDate>Sun, 04 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/%E8%A7%82%E5%BD%B1%E7%BA%A2%E6%B5%B7/</guid>
+      <description>&lt;p&gt;
+	
+
+&lt;div class=&#34;douban_show&#34;&gt;
+  &lt;div id=&#34;db26861685&#34; date-dbid=&#34;26861685&#34; class=&#34;douban_item post-preview&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>山姆和佛罗多</title>
+      <link>/post/%E5%B1%B1%E5%A7%86%E5%92%8C%E4%BD%9B%E7%BD%97%E5%A4%9A/</link>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/%E5%B1%B1%E5%A7%86%E5%92%8C%E4%BD%9B%E7%BD%97%E5%A4%9A/</guid>
+      <description>&lt;div class=&#34;douban_show&#34;&gt;
+  &lt;div id=&#34;db1291571&#34; date-dbid=&#34;1291571&#34; class=&#34;douban_item post-preview&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>千寻的数学规划</title>
+      <link>/post/%E5%8D%83%E5%AF%BB%E7%9A%84%E6%95%B0%E5%AD%A6%E8%A7%84%E5%88%92/</link>
+      <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/%E5%8D%83%E5%AF%BB%E7%9A%84%E6%95%B0%E5%AD%A6%E8%A7%84%E5%88%92/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

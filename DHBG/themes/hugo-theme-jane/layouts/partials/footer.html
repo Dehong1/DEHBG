@@ -1,0 +1,41 @@
+<div class="social-links" align="center">
+  {{- range $name, $path := .Site.Params.social }}
+    {{- if $path }}
+      {{- $realName := slicestr $name 2 }}
+      <a href="{{ $path | safeURL }}" rel="me noopener" class="iconfont icon-{{ $realName }}"
+        title="{{ $realName }}" target="_blank">
+      </a>
+    {{- end }}
+  {{- end }}
+  <a href="{{ .Site.RSSLink }}" rel="noopener" type="application/rss+xml" class="iconfont icon-rss"
+    title="rss" target="_blank">
+  </a>
+</div>
+<!-- hitwebcounter Code START -->
+<div align="center">
+<a href="http://www.hitwebcounter.com" target="_blank" >
+<img src="http://hitwebcounter.com/counter/counter.php?page=6903871&style=0014&nbdigits=5&type=ip&initCount=0" title="访客统计" Alt=".访客统计"   border="0" >
+</a>                                        <br/>
+ </div>                                     
+<div class="copyright">
+  <span class="power-by">
+    <script type="text/javascript" src="//ra.revolvermaps.com/0/0/3.js?i=0x1qk3q1mmy&amp;b=0&amp;s=40&amp;m=2&amp;cl=ffffff&amp;co=010020&amp;cd=aa0000&amp;v0=60&amp;v1=60&amp;r=1" async="async"></script>
+  </span>
+
+  <span class="copyright-year">
+    {{- $current := now.Format "2006" }}
+    &copy;
+    {{ if ne .Site.Params.since $current }}
+      {{ .Site.Params.since }} -
+    {{ end }}
+    {{- $current }}
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+{{- if or .Site.Copyright .Site.Author.name -}}
+    <span class="author">{{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}</span>
+{{- end -}}
+
+  </span>
+  
+</div>

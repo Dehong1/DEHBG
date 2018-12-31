@@ -1,0 +1,15 @@
+
+
+
+
+
+<p markdown="1" class="post" style="display:inherit;padding: 0em 0em 0em;margin: 0 0em 0em;border:1px solid #ccc;border-top-width: 3px;border-radius: 3px;border-top-color: #ccc;font-family:华文楷体;font-weight: bold;font-size :22px;color:#000;text-shadow:1px 1px 1px #ccc;word-spacing: 2px;letter-spacing: 1px;">
+<br/><br/>
+<img text-align:center src="https://s1.ax1x.com/2018/06/13/CXAka8.png" height="180" width="140"style=" float:left;margin:0em 0em 0em 2em "><br/><br/>
+ 种一棵树最好的时间是十年前， 其次是现在。<br/><br/><br/>
+<img src="https://s1.ax1x.com/2018/06/06/CHE6KK.png" height="66" width="66" style="float:right;margin:0em 2em 0em 2em ">
+<br/><br/><br/>
+</p>
+
+
+
